@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC103F7521E2249000331FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103F7421E2249000331FCD /* AppDelegate.swift */; };
+		AC103F7721E2249000331FCD /* CantactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103F7621E2249000331FCD /* CantactVC.swift */; };
+		AC103F7A21E2249000331FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC103F7821E2249000331FCD /* Main.storyboard */; };
+		AC103F7C21E2249200331FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC103F7B21E2249200331FCD /* Assets.xcassets */; };
+		AC103F7F21E2249200331FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC103F7D21E2249200331FCD /* LaunchScreen.storyboard */; };
+		AC103F8A21E2249200331FCD /* EPITATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103F8921E2249200331FCD /* EPITATests.swift */; };
+		AC103F9521E2249200331FCD /* EPITAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103F9421E2249200331FCD /* EPITAUITests.swift */; };
+		AC103FA321E2295900331FCD /* CantactVC_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103FA221E2295900331FCD /* CantactVC_Cell.swift */; };
+		AC103FA521E22A5900331FCD /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103FA421E22A5900331FCD /* ContactModel.swift */; };
+		ACBA835D21E9EF550061ABC0 /* ContactDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA835C21E9EF550061ABC0 /* ContactDetailsVC.swift */; };
+		E2EF078821EEFEAF0044D89D /* ContactDetailsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF078721EEFEAF0044D89D /* ContactDetailsTVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC103F8621E2249200331FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC103F6921E2249000331FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC103F7021E2249000331FCD;
+			remoteInfo = EPITA;
+		};
+		AC103F9121E2249200331FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC103F6921E2249000331FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC103F7021E2249000331FCD;
+			remoteInfo = EPITA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC103F7121E2249000331FCD /* EPITA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPITA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC103F7421E2249000331FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC103F7621E2249000331FCD /* CantactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantactVC.swift; sourceTree = "<group>"; };
+		AC103F7921E2249000331FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC103F7B21E2249200331FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC103F7E21E2249200331FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC103F8021E2249200331FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC103F8521E2249200331FCD /* EPITATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPITATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC103F8921E2249200331FCD /* EPITATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPITATests.swift; sourceTree = "<group>"; };
+		AC103F8B21E2249200331FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC103F9021E2249200331FCD /* EPITAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPITAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC103F9421E2249200331FCD /* EPITAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPITAUITests.swift; sourceTree = "<group>"; };
+		AC103F9621E2249200331FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC103FA221E2295900331FCD /* CantactVC_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantactVC_Cell.swift; sourceTree = "<group>"; };
+		AC103FA421E22A5900331FCD /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		ACBA835C21E9EF550061ABC0 /* ContactDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsVC.swift; sourceTree = "<group>"; };
+		E2EF078721EEFEAF0044D89D /* ContactDetailsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsTVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC103F6E21E2249000331FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC103F8221E2249200331FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC103F8D21E2249200331FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC103F6821E2249000331FCD = {
+			isa = PBXGroup;
+			children = (
+				AC103F7321E2249000331FCD /* EPITA */,
+				AC103F8821E2249200331FCD /* EPITATests */,
+				AC103F9321E2249200331FCD /* EPITAUITests */,
+				AC103F7221E2249000331FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC103F7221E2249000331FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC103F7121E2249000331FCD /* EPITA.app */,
+				AC103F8521E2249200331FCD /* EPITATests.xctest */,
+				AC103F9021E2249200331FCD /* EPITAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC103F7321E2249000331FCD /* EPITA */ = {
+			isa = PBXGroup;
+			children = (
+				AC103F7421E2249000331FCD /* AppDelegate.swift */,
+				AC103F7621E2249000331FCD /* CantactVC.swift */,
+				ACBA835C21E9EF550061ABC0 /* ContactDetailsVC.swift */,
+				AC103FA221E2295900331FCD /* CantactVC_Cell.swift */,
+				AC103FA421E22A5900331FCD /* ContactModel.swift */,
+				E2EF078721EEFEAF0044D89D /* ContactDetailsTVC.swift */,
+				AC103F7821E2249000331FCD /* Main.storyboard */,
+				AC103F7B21E2249200331FCD /* Assets.xcassets */,
+				AC103F7D21E2249200331FCD /* LaunchScreen.storyboard */,
+				AC103F8021E2249200331FCD /* Info.plist */,
+			);
+			path = EPITA;
+			sourceTree = "<group>";
+		};
+		AC103F8821E2249200331FCD /* EPITATests */ = {
+			isa = PBXGroup;
+			children = (
+				AC103F8921E2249200331FCD /* EPITATests.swift */,
+				AC103F8B21E2249200331FCD /* Info.plist */,
+			);
+			path = EPITATests;
+			sourceTree = "<group>";
+		};
+		AC103F9321E2249200331FCD /* EPITAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC103F9421E2249200331FCD /* EPITAUITests.swift */,
+				AC103F9621E2249200331FCD /* Info.plist */,
+			);
+			path = EPITAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC103F7021E2249000331FCD /* EPITA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC103F9921E2249200331FCD /* Build configuration list for PBXNativeTarget "EPITA" */;
+			buildPhases = (
+				AC103F6D21E2249000331FCD /* Sources */,
+				AC103F6E21E2249000331FCD /* Frameworks */,
+				AC103F6F21E2249000331FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPITA;
+			productName = EPITA;
+			productReference = AC103F7121E2249000331FCD /* EPITA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC103F8421E2249200331FCD /* EPITATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC103F9C21E2249200331FCD /* Build configuration list for PBXNativeTarget "EPITATests" */;
+			buildPhases = (
+				AC103F8121E2249200331FCD /* Sources */,
+				AC103F8221E2249200331FCD /* Frameworks */,
+				AC103F8321E2249200331FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC103F8721E2249200331FCD /* PBXTargetDependency */,
+			);
+			name = EPITATests;
+			productName = EPITATests;
+			productReference = AC103F8521E2249200331FCD /* EPITATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC103F8F21E2249200331FCD /* EPITAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC103F9F21E2249200331FCD /* Build configuration list for PBXNativeTarget "EPITAUITests" */;
+			buildPhases = (
+				AC103F8C21E2249200331FCD /* Sources */,
+				AC103F8D21E2249200331FCD /* Frameworks */,
+				AC103F8E21E2249200331FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC103F9221E2249200331FCD /* PBXTargetDependency */,
+			);
+			name = EPITAUITests;
+			productName = EPITAUITests;
+			productReference = AC103F9021E2249200331FCD /* EPITAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC103F6921E2249000331FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = srinivas;
+				TargetAttributes = {
+					AC103F7021E2249000331FCD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AC103F8421E2249200331FCD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AC103F7021E2249000331FCD;
+					};
+					AC103F8F21E2249200331FCD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AC103F7021E2249000331FCD;
+					};
+				};
+			};
+			buildConfigurationList = AC103F6C21E2249000331FCD /* Build configuration list for PBXProject "EPITA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC103F6821E2249000331FCD;
+			productRefGroup = AC103F7221E2249000331FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC103F7021E2249000331FCD /* EPITA */,
+				AC103F8421E2249200331FCD /* EPITATests */,
+				AC103F8F21E2249200331FCD /* EPITAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC103F6F21E2249000331FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC103F7F21E2249200331FCD /* LaunchScreen.storyboard in Resources */,
+				AC103F7C21E2249200331FCD /* Assets.xcassets in Resources */,
+				AC103F7A21E2249000331FCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC103F8321E2249200331FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC103F8E21E2249200331FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC103F6D21E2249000331FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBA835D21E9EF550061ABC0 /* ContactDetailsVC.swift in Sources */,
+				AC103F7721E2249000331FCD /* CantactVC.swift in Sources */,
+				AC103FA321E2295900331FCD /* CantactVC_Cell.swift in Sources */,
+				E2EF078821EEFEAF0044D89D /* ContactDetailsTVC.swift in Sources */,
+				AC103FA521E22A5900331FCD /* ContactModel.swift in Sources */,
+				AC103F7521E2249000331FCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC103F8121E2249200331FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC103F8A21E2249200331FCD /* EPITATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC103F8C21E2249200331FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC103F9521E2249200331FCD /* EPITAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC103F8721E2249200331FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC103F7021E2249000331FCD /* EPITA */;
+			targetProxy = AC103F8621E2249200331FCD /* PBXContainerItemProxy */;
+		};
+		AC103F9221E2249200331FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC103F7021E2249000331FCD /* EPITA */;
+			targetProxy = AC103F9121E2249200331FCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC103F7821E2249000331FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC103F7921E2249000331FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC103F7D21E2249200331FCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC103F7E21E2249200331FCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC103F9721E2249200331FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC103F9821E2249200331FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC103F9A21E2249200331FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNQKZ6AZ8;
+				INFOPLIST_FILE = EPITA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diyarme.EPITA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC103F9B21E2249200331FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNQKZ6AZ8;
+				INFOPLIST_FILE = EPITA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diyarme.EPITA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC103F9D21E2249200331FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNQKZ6AZ8;
+				INFOPLIST_FILE = EPITATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diyarme.EPITATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPITA.app/EPITA";
+			};
+			name = Debug;
+		};
+		AC103F9E21E2249200331FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNQKZ6AZ8;
+				INFOPLIST_FILE = EPITATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diyarme.EPITATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPITA.app/EPITA";
+			};
+			name = Release;
+		};
+		AC103FA021E2249200331FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNQKZ6AZ8;
+				INFOPLIST_FILE = EPITAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diyarme.EPITAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EPITA;
+			};
+			name = Debug;
+		};
+		AC103FA121E2249200331FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNQKZ6AZ8;
+				INFOPLIST_FILE = EPITAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diyarme.EPITAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EPITA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC103F6C21E2249000331FCD /* Build configuration list for PBXProject "EPITA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC103F9721E2249200331FCD /* Debug */,
+				AC103F9821E2249200331FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC103F9921E2249200331FCD /* Build configuration list for PBXNativeTarget "EPITA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC103F9A21E2249200331FCD /* Debug */,
+				AC103F9B21E2249200331FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC103F9C21E2249200331FCD /* Build configuration list for PBXNativeTarget "EPITATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC103F9D21E2249200331FCD /* Debug */,
+				AC103F9E21E2249200331FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC103F9F21E2249200331FCD /* Build configuration list for PBXNativeTarget "EPITAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC103FA021E2249200331FCD /* Debug */,
+				AC103FA121E2249200331FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC103F6921E2249000331FCD /* Project object */;
+}
